@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="test_agile_app" options="--add-exports jdk.javadoc/jdk.javadoc.internal.tool=ALL-UNNAMED" />
+      <module name="test_agile_app" options="" />
     </option>
   </component>
 </project>
