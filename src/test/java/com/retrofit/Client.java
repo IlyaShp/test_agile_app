@@ -1,5 +1,6 @@
 package com.retrofit;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.Generated;
@@ -27,6 +28,9 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @Generated("jsonschema2pojo")
 public class Client {
 	private int id;
+
+	public Client(String newLogin, String secret, String salt, LocalDateTime now, boolean b) {
+	}
 
 	public int getId() {
 		return id;
